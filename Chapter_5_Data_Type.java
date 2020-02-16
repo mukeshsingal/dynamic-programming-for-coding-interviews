@@ -1,4 +1,3 @@
-package Chapter5;
 
 /**
  * Notes:
@@ -34,7 +33,8 @@ class Chapter_5_Data_Type {
         /**
          * 5.1 
          */
-        System.out.println("Number of bits " + countBits(-1));
+        System.out.println("Number of bits in -1 = " + countBits(-1));
+        System.out.println("Number of bits in  1 = " + countBits(1));
 
         System.out.println("------------------");
     }
